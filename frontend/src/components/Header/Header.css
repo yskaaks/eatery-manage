@@ -1,0 +1,25 @@
+.header { 
+    display: flex;
+    background-color: #FFE8C9;
+    border-radius: 5px;
+    font-family:sans-serif;
+    width: inherit;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    margin-right: 25px;
+} 
+
+.account-page-open { 
+    height: 100vh;
+}
+
+h2 { 
+    margin: 0;
+}

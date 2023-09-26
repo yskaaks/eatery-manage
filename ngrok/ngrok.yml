@@ -1,0 +1,6 @@
+authtoken: 2T9AsuHgkprAqQDnquEw4cGmr9T_7cCAPrrbvPbaWuB8B8vSH
+tunnels:
+  default:
+    proto: http
+    addr: proxy:80
+    hostname: emsapp.ngrok.app

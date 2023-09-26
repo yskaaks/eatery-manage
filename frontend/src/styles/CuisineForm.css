@@ -1,0 +1,20 @@
+.cuisine-form { 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cuisine-item {
+  border-radius: 10px;
+  padding: 5px;
+  height: 66px;
+  margin: 6px;
+  background-color: antiquewhite;
+}
+
+.cuisine-item.selected {
+  background-color: #E17893;
+}

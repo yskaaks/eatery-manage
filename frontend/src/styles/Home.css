@@ -1,0 +1,81 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #FFF7EC;
+    overflow: scroll;
+    box-sizing: border-box;
+    padding: 5px;
+    height: 100%;
+  }
+  .header {
+    flex-direction: column;
+    height: 10%;
+  }
+  .home-header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  .home-header h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .home-header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .home-section {
+    margin: 40px 0;
+  }
+  
+  .home-section h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .home-section p, .home-section li {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .home-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-buttons .btn {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .home-footer {
+    background-color: #FFE8CA;
+    padding: 10px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  .home-footer p {
+    font-size: 14px;
+    color: #666;
+    
+  }
+  

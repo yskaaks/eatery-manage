@@ -1,0 +1,251 @@
+.profile-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #fff7ec;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.add-review {
+  padding: 10px 15px 10px 15px;
+
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.title-rating-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-photos-reviews-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.gl {
+  background-color: #fec8c9;
+  padding: 13px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.glyphicon-selected { 
+  background-color: #E4D3FF;
+  padding: 13px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.rating {
+  padding: 13px;
+  background-color: #fec8c9;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.display-reviews {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 300px;
+  overflow: auto;
+  /* height: 60%;
+    overflow-y: auto; */
+}
+
+.claim-voucher {
+  background-color: #e07893;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.claim-voucher:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.image-header {
+  width: 100%;
+  height: 200px;
+  background-color: #e5d3ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.eatery-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.content-button {
+  padding: 0;
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  background-color: #e5d3ff;
+}
+
+.opening-hours {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 160px;
+  overflow: auto;
+}
+
+hr {
+  margin: 10px;
+  width: 100%;
+  margin-left: 0;
+  border: solid 1px #d6d4d2;
+}
+
+.show-eatery {
+  color: green;
+  padding: 0;
+}
+
+/* Restaurant Menu page css for Eatery User starts here */
+.menu-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-image-container .bi-trash {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  visibility: hidden; /* Initially hide the trash icon */
+  cursor: pointer;
+}
+
+.menu-image-container:hover .bi-trash {
+  visibility: visible; /* Show the trash icon on hover */
+}
+
+.menu-image-form-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid#fec8c9;
+}
+
+.menu-image-form-container .file-input-label {
+  flex: 1; /* Make the label take up remaining available space */
+  padding-right: 10px; /* Add some space between the label and the button */
+}
+
+.menu-image-form-container .submit-button {
+  width: 35%;
+  padding: 5px 0px 5px 0px;
+  margin: 6px 2px 5px 0px;
+}
+
+.add-open-hours-form button {
+  margin: 0px 0px 0px 140px;
+}
+
+.opening-hours .hour-div {
+  margin: 0px 2px 2px 2px;
+}
+
+.opening-hours .hour-div .closed {
+  color: red;
+}
+
+.opening-hours form div.add-hour-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 10px 0px;
+}
+
+/* CSS for the opening hours table */
+.opening-hours-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.opening-hours-table th,
+.opening-hours-table td {
+  padding: 2px;
+  text-align: center;
+}
+
+.opening-hours-table input[type="time"],
+.opening-hours-table input[type="checkbox"] {
+  margin: 0;
+}
+
+.mod { 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    position:absolute;
+}
+
+.mod img { 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Restaurant Menu page css ends here */
+
+.edit-button { 
+  cursor: pointer;
+}

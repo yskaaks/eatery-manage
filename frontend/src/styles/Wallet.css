@@ -1,0 +1,90 @@
+.panel-group .panel+.panel {
+    margin-top: 20px;
+    /* increased space between panels */
+}
+
+.qr-code-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.wallet {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 80%;
+    background-color: #FFF7EC;
+}
+
+
+
+/* New css */
+
+.wallet-accordian {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    overflow-y: auto; /* Add a scrollbar when there are many eatery cards */
+    max-height: 600px; /* Set a maximum height to limit the scrollable area */
+    margin-top: 20px;
+  }
+  
+  .eatery-card {
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Make the card slightly rounded */
+    background-color: #f9f9f9;
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: transform 0.3s ease;
+  }
+  
+  /* .eatery-card:hover {
+    transform: scale(1.05); 
+  }
+   */
+  .eatery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px 10px 0 0; /* Round the top corners of the header */
+    background-color: #fff;
+  }
+  
+  .eatery-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .eatery-points {
+    font-size: 16px;
+  }
+  
+  .vouchers-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 5px; /* Add small gap between vouchers */
+    max-height: 60px; /* Set a maximum height for the vouchers */
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .voucher-span {
+    display: flex;
+    align-items: center;
+    padding: 3px 8px;
+    background-color: #f0f0f0;
+    border-radius: 15px; /* Make the vouchers rounded tags */
+    font-size: 14px;
+    white-space: nowrap; /* Prevent vouchers from wrapping to a new line */
+    text-overflow: ellipsis; /* Truncate vouchers with an ellipsis */
+    overflow: hidden;
+    cursor: default; /* Remove default cursor on vouchers */
+  }
+  
