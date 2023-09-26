@@ -12,8 +12,8 @@ mail = Mail()
 def init_mail(app):
     app.config['MAIL_SERVER'] = 'smtp.office365.com'
     app.config['MAIL_PORT'] = 587
-    app.config['MAIL_USERNAME'] = 'tempemsbeast123@outlook.com'
-    app.config['MAIL_PASSWORD'] = 'Sql12345'
+    app.config['MAIL_USERNAME'] = 'blah@outlook.com'
+    app.config['MAIL_PASSWORD'] = 'blah'
     app.config['MAIL_USE_TLS'] = True
     app.config['MAIL_USE_SSL'] = False
     # RESET EMAIL CONFIG
